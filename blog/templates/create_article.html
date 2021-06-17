@@ -1,7 +1,7 @@
 {% include "base.html" %}
     <div class="row">
-      <div class="col mt-4"></div>
-      <div class="col-6 mt-4">
+      <div class="col mt-4" ></div>
+      <div class="col-lg-6 mt-4" style="padding:0px 50px 50px 50px;">
       <form action="{% url 'app:Add_article' %}" method="post" enctype="multipart/form-data">{% csrf_token %}
           <h2>Write your Article</h2>
         <div class="form-row">
